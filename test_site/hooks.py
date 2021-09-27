@@ -181,4 +181,4 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"test_site.auth.validate"
 # ]
-
+fixtures = ['Custom Field',]
