@@ -181,4 +181,9 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"test_site.auth.validate"
 # ]
-fixtures = ['Custom Field',]
+# fixtures = ["Custom Field",
+# ]
+fixtures = [{
+    "dt": "Custom Field",
+    "filters": [["name", "in",['Lead-distict', 'Lead-location','Lead-nature_of_bussiness','Lead-other','Lead-how_did_you_hear_about_us','Lead-remarks','Lead-email','Lead-mr_ms','Lead-captcha_html_wrapper']]]
+}]
